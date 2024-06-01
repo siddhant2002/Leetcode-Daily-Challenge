@@ -14,7 +14,6 @@ class Solution {
                 pos += 2;
             }
         }
-
         return ans;
     }
 }

@@ -12,7 +12,6 @@ class Solution {
                 max = prices[i];
             }
         }
-
         return ans;
     }
 }
