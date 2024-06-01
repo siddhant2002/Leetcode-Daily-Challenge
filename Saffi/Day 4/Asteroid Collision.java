@@ -37,7 +37,6 @@ class Solution {
                 }
             }
         }
-
         int ans[] = new int[pos + 1];
 
         for (int i = 0; i <= pos; i++) {
