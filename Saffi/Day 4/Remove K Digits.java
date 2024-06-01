@@ -12,7 +12,6 @@ class Solution {
 
             stk.push(c - '0');
         }
-
         while(k > 0 && !stk.isEmpty()) {
             k--;
             stk.pop();

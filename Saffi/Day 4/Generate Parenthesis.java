@@ -12,7 +12,6 @@ class Solution {
             ans.add(s);
             return;
         }
-
         if(open < n) {
             task(open + 1, close, s + "(", n, ans);
         }

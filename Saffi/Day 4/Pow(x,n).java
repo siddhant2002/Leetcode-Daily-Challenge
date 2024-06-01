@@ -13,7 +13,6 @@ class Solution {
         if((n & 1) != 0) {
             return temp * temp * x;
         }
-
         return temp * temp;
     }
 }
