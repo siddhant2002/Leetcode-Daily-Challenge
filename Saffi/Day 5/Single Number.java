@@ -5,7 +5,6 @@ class Solution {
         for(int i : nums) {
             xor = xor ^ i;
         }
-
         return xor;
     }
 }

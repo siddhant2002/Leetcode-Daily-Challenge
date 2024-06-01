@@ -9,7 +9,6 @@ class Solution {
 
             xor = xor >> 1;
         }
-
         return ans;
     }
 }
