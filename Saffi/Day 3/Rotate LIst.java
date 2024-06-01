@@ -13,7 +13,6 @@ class Solution {
         if(head == null || head.next == null) return head;
 
         int n = 1;
-
         ListNode temp = head;
 
         while(temp.next != null) {

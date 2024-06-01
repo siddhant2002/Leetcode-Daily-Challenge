@@ -14,7 +14,6 @@ class Solution {
         else if(s.charAt(0) == '+') {
             s = s.substring(1);
         }
-
         long ans = 0;
 
         for(int i = 0; i < s.length(); i++) {
