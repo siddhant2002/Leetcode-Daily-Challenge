@@ -37,7 +37,6 @@ class Solution {
                 root = root.right;
             }
         }
-
         return 0;
     }
 }

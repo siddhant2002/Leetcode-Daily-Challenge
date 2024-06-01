@@ -16,7 +16,6 @@ class Solution {
             map.put(prefixSum, 1 + map.getOrDefault(prefixSum, 0));
 
         }
-
         return ans;
     }
 }

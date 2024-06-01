@@ -8,7 +8,6 @@ class Solution {
         // Swap them.
 
         // Reverse the array after the index the index ind
-
         int ind = -1;
 
         int n = nums.length;

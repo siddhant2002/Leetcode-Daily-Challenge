@@ -17,7 +17,6 @@ class Solution {
         // Then, if isCol = true, then fill the first column with zeros
 
         boolean isRow = false, isCol = false;
-
         for(int i = 0; i < m; i++) {
             if(matrix[i][0] == 0) {
                 isCol = true;
