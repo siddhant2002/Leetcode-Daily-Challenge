@@ -39,7 +39,6 @@ class Solution {
         if(count1 > n / 3) ans.add(element1);
 
         if(count2 > n / 3) ans.add(element2);
-
         return ans;
     }
 }
