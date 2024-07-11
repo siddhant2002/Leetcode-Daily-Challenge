@@ -2,6 +2,7 @@ class Solution {
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> nm=new ArrayList<>();
         task(nm,new ArrayList<>(),0,nums);
+        
         return nm;
     }
     private void task(List<List<Integer>> nm, List<Integer> kk, int ind, int nums[])
