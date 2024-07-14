@@ -7,6 +7,7 @@ class Solution {
         }
         return ans;
     }
+    
     private static int task(int arr[], int ind, int n)
     {
         int val=arr[ind];
