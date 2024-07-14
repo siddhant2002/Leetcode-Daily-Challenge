@@ -4,7 +4,6 @@ class Solution {
         task(nm,new ArrayList<>(),0,nums);
         return nm;
     }
-    
     private void task(List<List<Integer>> nm, List<Integer> kk, int ind, int nums[])
     {
         if(ind == nums.length)
