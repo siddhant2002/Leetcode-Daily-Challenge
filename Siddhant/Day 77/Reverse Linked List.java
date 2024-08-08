@@ -22,20 +22,12 @@ class Solution {
             head=ptr;
             return head;
         }
-        ListNode ptr=null,ptr1=head,ptr2=head.next;
-        head.next=null;
-        return task(ptr,ptr1,ptr2);
-    }
-    private ListNode task(ListNode ptr, ListNode ptr1, ListNode ptr2)
-    {
-        if(ptr2==null)
+        ListNode ptr=null,ptr1=null,ptr2=null;
+        for(ptr1=head,ptr2=head.next,ptr1.next=null;ptr2!=null;ptr2=ptr2.next,ptr1.next=ptr)
         {
-            return ptr1;
+            ptr=ptr1;
+            ptr1=ptr2;
         }
-        ptr=ptr1;
-        ptr1=ptr2;
-        ptr2=ptr2.next;
-        ptr1.next=ptr;
-        return task(ptr,ptr1,ptr2);
+        return ptr1;
     }
 }
